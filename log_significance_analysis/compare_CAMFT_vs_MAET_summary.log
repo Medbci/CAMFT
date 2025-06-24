@@ -1,0 +1,16 @@
+********************
+=== Dataset-2class ===
+Metric: Accuracy
+Beta=0.0321; 95%CI=(0.0200,0.0442); p=0.000
+Significant (p<0.05)
+Metric: F1
+Beta=0.0302; 95%CI=(0.0167,0.0437); p=0.000
+Significant (p<0.05)
+********************
+=== Dataset-4class ===
+Metric: Accuracy
+Beta=0.0219; 95%CI=(0.0141,0.0297); p=0.000
+Significant (p<0.05)
+Metric: F1
+Beta=0.0094; 95%CI=(0.0013,0.0176); p=0.023
+Significant (p<0.05)
