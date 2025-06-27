@@ -180,9 +180,10 @@ class ECGGuidedEnhancement(nn.Module):
 		return out.squeeze(1)
 
 ########################################################################
-# 5. Integrated Main Model: CrossModalIntegrationTransformer
+# 5. Main Model: CAMT
 ########################################################################
-class CrossModalIntegrationTransformer(nn.Module):
+class CAMT(nn.Module):
+	# Cross-Attention Multimodal Fusion Transformer
 	def __init__(
 			self,
 			eeg_input_dim: int = 310,
