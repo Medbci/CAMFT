@@ -180,9 +180,9 @@ class ECGGuidedEnhancement(nn.Module):
 		return out.squeeze(1)
 
 ########################################################################
-# 5. Main Model: CAMT
+# 5. Main Model: CAMFT
 ########################################################################
-class CAMT(nn.Module):
+class CAMFT(nn.Module):
 	# Cross-Attention Multimodal Fusion Transformer
 	def __init__(
 			self,
